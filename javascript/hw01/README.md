@@ -1,13 +1,13 @@
 # JavaScript Homeworks
 
-## The Fortune Teller
+## 1. The Fortune Teller
 
 Why pay a fortune teller when you can just program your fortune yourself?
 
 - Store the following into variables: number of children, partner's name, geographic location, job title.
 - Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 
-## The Age Calculator
+## 2. The Age Calculator
 
 Forgot how old someone is? Calculate it!
 
@@ -17,7 +17,7 @@ Forgot how old someone is? Calculate it!
 - Output them to the screen like so: "They are either NN or
 - NN", substituting the values.
 
-## The Temperature Converter
+## 3. The Temperature Converter
 
 Let's make a program to convert celsius tempatures to fahrenheit and vice versa, so we can complain about the weather with our friends oversees.
 
@@ -30,7 +30,7 @@ Let's make a program to convert celsius tempatures to fahrenheit and vice versa,
 - Now store a fahrenheit temperature into a variable.
 - Convert it to celsius and output "NN°F is NN°C."
 
-## Challenge Question: Using Math functions
+## 4. Challenge Question: Using Math functions
 
 JavaScript has a built-in tool that can generate a random number between 0 and 1. This tool is called a method. We'll talk about methods more later in the class. For now, know if you type `Math.random()`, you'll get a random number between 0 and 1.
 
@@ -39,3 +39,5 @@ Using this tool, update your fahrenheit to celsius tempature conversion program 
 - Instead of inputing a value for the Fahrenheit tempature, use Math.random() to generate a random
 - tempature between 0 and 100
 - Have to program output: "It is NN°F today. That's NN°C."
+
+> Copyright 2020 Seytech School
