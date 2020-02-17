@@ -51,7 +51,6 @@ Create a function called `mixUp`. It should take in two strings, and return the 
 ```
 mixUp('mix', 'pod'): 'pox mid'
 mixUp('dog', 'dinner'): 'dig donner'
-
 ```
 ### FixStart
 Create a function called fixStart. It should take a single argument, a string, and return a version where all occurrences of its first character have been replaced with '*', except for the first character itself. You can assume that the string is at least one character long. For example:
@@ -59,7 +58,6 @@ Create a function called fixStart. It should take a single argument, a string, a
 ```
 fixStart('babble'): 'ba**le'
 fixStart('turtle'): 'tur*le'
-
 ```
 
 #### References
