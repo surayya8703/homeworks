@@ -11,7 +11,7 @@ Why pay a fortune teller when you can just program your fortune yourself?
 ### 2. The Age Calculator
 Forgot how old someone is? Calculate it!
 
-*Store the current year in a variable.
+* Store the current year in a variable.
 * Store their birth year in a variable.
 * Calculate their 2 possible ages based on the stored values.
 * Output them to the screen like so: "They are either NN or NN", substituting the values.
@@ -36,10 +36,7 @@ Using this tool, update your fahrenheit to celsius tempature conversion program 
 * Instead of inputing a value for the Fahrenheit tempature, use Math.random() to generate a random tempature between 0 and 100
 * Have to program output: "It is NN°F today. That's NN°C."
 
-```
 
 #### References
 * [Khan Academy - Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)
 * [Code Academy - JavaScript](https://www.khanacademy.org/computing/computer-programming/programming)
-
-```
