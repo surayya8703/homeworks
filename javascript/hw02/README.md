@@ -61,3 +61,8 @@ fixStart('babble'): 'ba**le'
 fixStart('turtle'): 'tur*le'
 
 ```
+
+#### References
+
+* [Khan Academy - Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)
+* [Code Academy - JavaScript](http://www.codecademy.com/en/tracks/javascript)
