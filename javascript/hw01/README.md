@@ -38,3 +38,8 @@ pluralize(7, 'turtle'): '7 turtles'
 2. Square the result of #1 and store that result.
 3. Calculate the area of a circle with the result of #2 as the radius.
 4. Calculate what percentage that area is of the squared result (#3).
+
+####  References
+
+* [Khan Academy - Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)
+* [Code Academy - JavaScript](http://www.codecademy.com/en/tracks/javascript)
