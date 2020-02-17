@@ -18,8 +18,6 @@ Keep track of which books you read and which books you want to read!
 * Now use an if/else statement to change the output depending on whether you read it yet or not. If you read it, log a string like 'You already read "The Hobbit" by J.R.R. Tolkien', and if not, log a string like 'You still need to read "The Lord of the Rings" by J.R.R. Tolkien.'
 
 #### References
-Khan Academy - Intro to JS: Drawing & Animation
-Code Academy - JavaScript
 
 * [Khan Academy - Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)
 * [Code Academy - JavaScript](http://www.codecademy.com/en/tracks/javascript)
