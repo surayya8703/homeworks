@@ -1,43 +1,40 @@
-# JavaScript Homeworks
+# JavaScript Homeworks from Class 2
 
-## 1. The Fortune Teller
+## Section - Functions
 
-Why pay a fortune teller when you can just program your fortune yourself?
+### 1. The Fortune Teller: With Functions!
 
-- Store the following into variables: number of children, partner's name, geographic location, job title.
-- Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+Let's turn one of the Class 1 Exercises into a function.
 
-## 2. The Age Calculator
+* Write a function named `tellFortune` that:
+ - takes 4 arguments: number of children, partner's name, geographic location, job title.
+ - outputs your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+* Call that function 3 times with 3 different values for the arguments.
 
-Forgot how old someone is? Calculate it!
+### What number is bigger?
 
-- Store the current year in a variable.
-- Store their birth year in a variable.
-- Calculate their 2 possible ages based on the stored values.
-- Output them to the screen like so: "They are either NN or
-- NN", substituting the values.
+Write a function that compares two numbers and returns the larger one. Be sure to try it out with some different numbers. Bonus: add error messages if the numbers are equal or cannot be compared.
 
-## 3. The Temperature Converter
+Don't forget to test it!
 
-Let's make a program to convert celsius tempatures to fahrenheit and vice versa, so we can complain about the weather with our friends oversees.
+### Pluralize
 
-**Reminder:** To convert celsius to fahrenheit, multiply by 9, then divide by 5, then add 32. To convert fahrenheit to celsius, deduct 32, then multiply by 5, then divide by 9.
+Write a function `pluralize` that takes in two arguments, a number and a word, and returns the plural. For example:
 
-**Unicode Characters:** To print the degrees symbol in JavaScript, we need to use the write \u00B0 to represent the unicode character for the degress symbol.
+pluralize(5, 'cat'): '5 cats'
+pluralize(7, 'turtle'): '7 turtles'
 
-- Store a celsius temperature into a variable.
-- Convert it to fahrenheit and output "NN°C is NN°F".
-- Now store a fahrenheit temperature into a variable.
-- Convert it to celsius and output "NN°F is NN°C."
+- Bonus: Make it handle a few collective nouns like "sheep" and "geese".
 
-## 4. Challenge Question: Using Math functions
+### The Calculator
 
-JavaScript has a built-in tool that can generate a random number between 0 and 1. This tool is called a method. We'll talk about methods more later in the class. For now, know if you type `Math.random()`, you'll get a random number between 0 and 1.
-
-Using this tool, update your fahrenheit to celsius tempature conversion program to do the following:
-
-- Instead of inputing a value for the Fahrenheit tempature, use Math.random() to generate a random
-- tempature between 0 and 100
-- Have to program output: "It is NN°F today. That's NN°C."
-
-> Copyright 2020 Seytech School
+* Write a function called squareNumber that will take one argument (a number), square that number, and return the result. It should also log a string like "The result of squaring the number 3 is 9."
+* Write a function called halfNumber that will take one argument (a number), divide it by 2, and return the result. It should also log a string like "Half of 5 is 2.5.".
+* Write a function called percentOf that will take two numbers, figure out what percent the first number represents of the second number, and return the result. It should also log a string like "2 is 50% of 4."
+* Write a function called areaOfCircle that will take one argument (the radius), calculate the area based on that, and return the result. It should also log a string like "The area for a circle with radius 2 is 12.566370614359172."
+- Bonus: Round the result so there are only two digits after the decimal.
+* Write a function that will take one argument (a number) and perform the following operations, using the functions you wrote earlier:
+1. Take half of the number and store the result.
+2. Square the result of #1 and store that result.
+3. Calculate the area of a circle with the result of #2 as the radius.
+4. Calculate what percentage that area is of the squared result (#3).
