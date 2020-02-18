@@ -1,15 +1,15 @@
 // Your JS code is here The Fortune Teller
 var numKid = 5;
-var partner = 'Osmon';
+var partner = 'Osman';
 var geolocation = 'Geogia';
 var jobTitle = 'Software Engineer'
 
 var future = 'You will be a ' + jobTitle + ' in ' + geolocation + ', and married to ' 
-+ partner + ' ' + ' with ' + numKid + ' kid. ';
++ partner + ' ' + ' with ' + numKid + ' kids. ';
 console.log(future);
 // second part  The Age Calculator
-var curYear = 2020
-var birthYear = 1987
+var curYear = 2021
+var birthYear = 1987S
 var age = curYear - birthYear;
 console.log('They are either ' + age + ' or ' + (age + 2));
 // thir part The Temperature Converter
