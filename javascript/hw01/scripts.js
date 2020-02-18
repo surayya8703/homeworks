@@ -1,3 +1,4 @@
+
 // 1. The Fortune Teller
 
 var numOfchildren = 3,
@@ -40,3 +41,4 @@ console.log(fahrenheit2 + "\u00B0F is " + celsius + "\u00B0C");
 var fahrenheit2 = Math.random() * 100;
 var celsius = ((fahrenheit2 - 32) * 5) / 9;
 console.log(fahrenheit2 + "\u00B0F is " + celsius + "\u00B0C");
+
